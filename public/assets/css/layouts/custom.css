@@ -1,0 +1,119 @@
+/* ===============================
+   CONTENT WRAPPER
+================================ */
+.content-wrapper {
+    background: #f8fafc;
+    min-height: calc(100vh - 64px);
+    padding: 24px;
+}
+
+.content-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* ===============================
+   TYPOGRAPHY
+================================ */
+.content-inner h1,
+.content-inner h2,
+.content-inner h3,
+.content-inner h4 {
+    font-weight: 600;
+    color: #0f172a;
+    margin-bottom: 12px;
+}
+
+.content-inner p {
+    color: #475569;
+    font-size: 14px;
+}
+
+/* ===============================
+   CARD (DEFAULT)
+================================ */
+.card {
+    border-radius: 16px;
+    border: none;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+}
+
+.card-header {
+    background: transparent;
+    border-bottom: 1px solid #e2e8f0;
+    font-weight: 600;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* ===============================
+   TABLE
+================================ */
+.table {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.table thead {
+    background: #f1f5f9;
+}
+
+.table th {
+    font-weight: 600;
+    font-size: 13px;
+    color: #334155;
+    border-bottom: none;
+}
+
+.table td {
+    font-size: 13px;
+    color: #475569;
+    vertical-align: middle;
+}
+
+/* ===============================
+   FORM
+================================ */
+.form-control {
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.form-control:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+}
+
+/* ===============================
+   BUTTON
+================================ */
+.btn {
+    border-radius: 10px;
+    font-size: 14px;
+    /* padding: 8px 16px; */
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #2563eb, #3b82f6);
+    border: none;
+}
+
+.btn-danger {
+    background: linear-gradient(135deg, #ef4444, #dc2626);
+    border: none;
+}
+
+/* ===============================
+   UTILITIES
+================================ */
+.section {
+    margin-bottom: 24px;
+}
+
+.page-title {
+    font-size: 22px;
+    font-weight: 600;
+}
